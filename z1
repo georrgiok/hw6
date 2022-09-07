@@ -1,0 +1,15 @@
+//Программа запрашивает натуральное число M, пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+//скоько чисел больше 0 ввел поль
+Console.WriteLine("сколько чисел вы хотите ввести");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите числа ");  
+int c =0;  
+for (int schet = 0; schet < a ; schet++)
+{
+    int b = Convert.ToInt32(Console.ReadLine());
+    if (b > 0)
+    {
+        c++;
+    }
+}
+Console.WriteLine(c);  
